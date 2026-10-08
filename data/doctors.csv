@@ -1,0 +1,7 @@
+doctor_id,name,name_ar,specialty,languages,schedule
+D01,Dr. Amal Haddad,د. أمل حداد,family_medicine,ar;en,0=08:00-14:00;1=08:00-14:00;2=08:00-14:00;3=08:00-14:00;4=08:00-12:00
+D02,Dr. Omar Al Suwaidi,د. عمر السويدي,family_medicine,ar;en,0=14:00-20:00;1=14:00-20:00;2=14:00-20:00;3=14:00-20:00;5=09:00-13:00
+D03,Dr. Karim Mansour,د. كريم منصور,paediatrics,ar;en;fr,0=09:00-17:00;1=09:00-17:00;3=09:00-17:00;5=09:00-13:00
+D04,Dr. Leila Benali,د. ليلى بن علي,dermatology,fr;ar;en,1=10:00-18:00;2=10:00-18:00;4=08:00-12:00
+D05,Dr. Sophie Martin,د. صوفي مارتان,obstetrics_gynaecology,fr;en,0=08:00-15:00;2=08:00-15:00;3=08:00-15:00
+D06,Dr. Priya Nair,د. بريا ناير,ent,en,1=12:00-20:00;3=12:00-20:00;5=13:00-17:00

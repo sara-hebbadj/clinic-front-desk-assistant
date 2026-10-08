@@ -1,0 +1,27 @@
+# Secrets: never commit
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Demo state written while the app runs (alerts, handover queue, audit log, bookings)
+runtime/
+
+# Traces from local runs (the ones behind published results live in evals/results/)
+evals/traces.jsonl
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

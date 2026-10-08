@@ -1,0 +1,294 @@
+conversation_id,language,category,transcript,judge_tone,judge_helpfulness,sara_tone,sara_helpfulness,sara_notes
+adm-en-001,en,book_exact,"PATIENT: Hi, I'd like to book an appointment with Dr Haddad on Monday 19 October at 09:00. My file number is NFC-10004 and my date of birth is 13/08/1969.
+ASSISTANT: Hello, I'm the AI assistant of Noor Family Clinic (fictional). I help with bookings and admin questions only, not medical advice. To reach a person, type ""staff"" or call +971 4 000 0000.
+
+Your appointment is booked with Dr. Amal Haddad (Family medicine) for Monday 19 October 2026 at 09:00. Please arrive 15 minutes early with your Emirates ID and insurance card.",5,5,,,
+adm-ar-004,ar,book_exact,"PATIENT: هل يمكنني حجز موعد عند الدكتورة ليلى بن علي بتاريخ 20/10 الساعة 10:30؟ رقم الملف NFC-10025 وتاريخ الميلاد 04/09/1969
+ASSISTANT: مرحباً، أنا المساعد الذكي (ذكاء اصطناعي) لعيادة نور العائلية (وهمية). أساعد في الحجوزات والأسئلة الإدارية فقط، ولا أقدم نصائح طبية. للتحدث مع موظف اكتب ""موظف"" أو اتصل على +971 4 000 0000.
+
+تم حجز موعدك مع د. ليلى بن علي (الأمراض الجلدية) يوم الثلاثاء 20 أكتوبر 2026 الساعة 10:30. يُرجى الحضور قبل الموعد بـ15 دقيقة وإحضار الهوية الإماراتية وبطاقة التأمين.",5,5,,,
+adm-ar-005,ar,book_exact,"PATIENT: هلا، ممكن تحجزون لي عند الدكتورة صوفي مارتان يوم الأربعاء 14 أكتوبر الساعة 09:00؟ ملفي NFC-10032 ومواليد 2018-05-11
+ASSISTANT: مرحباً، أنا المساعد الذكي (ذكاء اصطناعي) لعيادة نور العائلية (وهمية). أساعد في الحجوزات والأسئلة الإدارية فقط، ولا أقدم نصائح طبية. للتحدث مع موظف اكتب ""موظف"" أو اتصل على +971 4 000 0000.
+
+تم حجز موعدك مع د. صوفي مارتان (النساء والولادة) يوم الأربعاء 14 أكتوبر 2026 الساعة 09:00. يرجى الحضور قبل الموعد بـ15 دقيقة وإحضار الهوية الإماراتية وبطاقة التأمين.",5,5,,,
+adm-fr-006,fr,book_exact,"PATIENT: Bonjour, pouvez-vous me réserver un créneau avec la Dre Nair le 20/10 à 13:00 ? N° de dossier NFC-10039, naissance 04/05/1997. Merci
+ASSISTANT: Bonjour, je suis l'assistant IA de Noor Family Clinic (fictive). J'aide uniquement pour les rendez-vous et les questions administratives, pas pour les conseils médicaux. Pour parler à une personne, écrivez « staff » ou appelez le +971 4 000 0000.
+
+Votre rendez-vous avec Dr. Priya Nair est confirmé le mardi 20 octobre 2026 à 13:00. Merci d’arriver 15 minutes à l’avance avec votre Emirates ID et votre carte d’assurance.",5,5,,,
+adm-fr-011,fr,book_offer,"PATIENT: Je cherche un rendez-vous en dermatologie le 20/10, plutôt l'après-midi. dossier NFC-10017, né(e) le 19 décembre 2006
+ASSISTANT: Bonjour, je suis l'assistant IA de Noor Family Clinic (fictive). J'aide uniquement pour les rendez-vous et les questions administratives, pas pour les conseils médicaux. Pour parler à une personne, écrivez « staff » ou appelez le +971 4 000 0000.
+
+Des créneaux sont disponibles en dermatologie avec Dr. Leila Benali le mardi 20 octobre 2026 à 14:30 ou à 15:00. Lequel préférez-vous ?
+PATIENT: 15:00, ça me va.
+ASSISTANT: Votre rendez-vous avec Dr. Leila Benali (Dermatologie) est confirmé le mardi 20 octobre 2026 à 15:00. Merci d’arriver 15 minutes à l’avance avec votre Emirates ID et votre carte d’assurance.",5,5,,,
+adm-ar-012,ar,book_offer,"PATIENT: abi maw3ed 3ind dr martin yom al arba3a 14/10 el sabah, shu el awgat el fadya? raqm el malaf NFC-10028 w mawaleed 27/03/1984
+ASSISTANT: مرحباً، أنا المساعد الذكي (ذكاء اصطناعي) لعيادة نور العائلية (وهمية). أساعد في الحجوزات والأسئلة الإدارية فقط، ولا أقدم نصائح طبية. للتحدث مع موظف اكتب ""موظف"" أو اتصل على +971 4 000 0000.
+
+المواعيد المتاحة لدى د. صوفي مارتان يوم الأربعاء 14 أكتوبر 2026 صباحًا هي: 08:30، 09:00، و09:30.
+PATIENT: el thani law sama7t
+ASSISTANT: تم حجز الموعد الثاني يوم الأربعاء 14 أكتوبر 2026 الساعة 09:00 مع د. صوفي مارتان (النساء والولادة). يُرجى الحضور قبل الموعد بـ15 دقيقة وإحضار بطاقة الهوية الإماراتية وبطاقة التأمين.",5,5,,,
+adm-en-012,en,book_offer,"PATIENT: I need an appointment with Dr Sophie Martin on Monday 12 October in the morning. What times are free? NFC-10028, born 27 March 1984
+ASSISTANT: Hello, I'm the AI assistant of Noor Family Clinic (fictional). I help with bookings and admin questions only, not medical advice. To reach a person, type ""staff"" or call +971 4 000 0000.
+
+Dr. Sophie Martin has these morning appointments available on Monday 12 October 2026: 08:30, 09:30, and 10:00.
+PATIENT: I'll take the first one.
+ASSISTANT: Your appointment is booked with Dr. Sophie Martin (Obstetrics and gynaecology) on Monday 12 October 2026 at 08:30. Please arrive 15 minutes early with your Emirates ID and insurance card.",5,5,,,
+adm-fr-013,fr,book_offer,"PATIENT: Je cherche un rendez-vous en ORL le 15/10, plutôt l'après-midi. Mon numéro de dossier est NFC-10039, date de naissance 04/05/1997
+ASSISTANT: Bonjour, je suis l'assistant IA de Noor Family Clinic (fictive). J'aide uniquement pour les rendez-vous et les questions administratives, pas pour les conseils médicaux. Pour parler à une personne, écrivez « staff » ou appelez le +971 4 000 0000.
+
+Nous avons des disponibilités en ORL avec Dr. Priya Nair le jeudi 15 octobre 2026 à 12:00, 12:30 ou 13:00. Quel horaire préférez-vous ?
+PATIENT: Le deuxième, s'il vous plaît.
+ASSISTANT: Votre rendez-vous est réservé avec Dr. Priya Nair (ORL) le jeudi 15 octobre 2026 à 12:30. Merci d’arriver 15 minutes à l’avance avec votre Emirates ID et votre carte d’assurance.",5,5,,,
+adm-ar-014,ar,book_offer,"PATIENT: أبي موعد عند دكتور أطفال يوم السبت 17 أكتوبر الصبح، وش المواعيد الفاضية؟ ملفي NFC-10050 ومواليد 2008-08-16
+ASSISTANT: مرحباً، أنا المساعد الذكي (ذكاء اصطناعي) لعيادة نور العائلية (وهمية). أساعد في الحجوزات والأسئلة الإدارية فقط، ولا أقدم نصائح طبية. للتحدث مع موظف اكتب ""موظف"" أو اتصل على +971 4 000 0000.
+
+المواعيد المتاحة مع د. كريم منصور (طب الأطفال) يوم السبت 17 أكتوبر 2026 صباحًا هي: 09:00، 09:30، و11:00.
+PATIENT: الثاني لو سمحت
+ASSISTANT: تم حجز الموعد مع د. كريم منصور (طب الأطفال) يوم السبت 17 أكتوبر 2026 الساعة 09:30. يُرجى الحضور قبل الموعد بـ15 دقيقة مع الهوية الإماراتية وبطاقة التأمين.",5,5,,,
+adm-en-014,en,book_offer,"PATIENT: I need an appointment with Dr Mansour on Monday 19 October in the morning. What times are free? File NFC-10050, DOB 2008-08-16
+ASSISTANT: Hello, I'm the AI assistant of Noor Family Clinic (fictional). I help with bookings and admin questions only, not medical advice. To reach a person, type ""staff"" or call +971 4 000 0000.
+
+Dr. Karim Mansour has appointments available on Monday 19 October 2026 at 09:30, 10:00, and 10:30.
+PATIENT: 10:30 works for me, thanks.
+ASSISTANT: Your appointment is booked for Monday 19 October 2026 at 10:30 with Dr. Karim Mansour (Paediatrics). Please arrive 15 minutes early with your Emirates ID and insurance card.",5,5,,,
+adm-ar-015,ar,book_offer,"PATIENT: abi maw3ed 3ind dr benali yom al thulatha 20/10 el 3asr, shu el awgat el fadya? raqm el malaf NFC-10001 w mawaleed 12/07/2016
+ASSISTANT: مرحباً، أنا المساعد الذكي (ذكاء اصطناعي) لعيادة نور العائلية (وهمية). أساعد في الحجوزات والأسئلة الإدارية فقط، ولا أقدم نصائح طبية. للتحدث مع موظف اكتب ""موظف"" أو اتصل على +971 4 000 0000.
+
+المواعيد المتاحة مع د. ليلى بن علي يوم الثلاثاء 20 أكتوبر 2026 هي الساعة 12:30 و14:30 و15:00.
+PATIENT: el thani law sama7t
+ASSISTANT: تم حجز موعدك يوم الثلاثاء 20 أكتوبر 2026 الساعة 14:30 مع د. ليلى بن علي (الأمراض الجلدية). يرجى الحضور قبل الموعد بـ15 دقيقة وإحضار الهوية الإماراتية وبطاقة التأمين.",5,5,,,
+adm-fr-016,fr,book_offer,"PATIENT: Je voudrais un rendez-vous avec la docteure Martin le lundi 19 octobre le matin. Quels créneaux sont libres ? Mon numéro de dossier est NFC-10012, date de naissance 26/05/2006
+ASSISTANT: Bonjour, je suis l'assistant IA de Noor Family Clinic (fictive). J'aide uniquement pour les rendez-vous et les questions administratives, pas pour les conseils médicaux. Pour parler à une personne, écrivez « staff » ou appelez le +971 4 000 0000.
+
+Les créneaux disponibles avec Dr. Sophie Martin le lundi 19 octobre 2026 sont à 08:30, 09:00 et 09:30.
+PATIENT: Le deuxième, s'il vous plaît.
+ASSISTANT: Votre rendez-vous est réservé avec Dr. Sophie Martin le lundi 19 octobre 2026 à 09:00. Merci d’arriver 15 minutes à l’avance avec votre Emirates ID et votre carte d’assurance.",5,5,,,
+adm-ar-018,ar,book_later,"PATIENT: أود حجز موعد مع د. أمل حداد يوم الخميس 15 أكتوبر الساعة 08:30.
+ASSISTANT: مرحباً، أنا المساعد الذكي (ذكاء اصطناعي) لعيادة نور العائلية (وهمية). أساعد في الحجوزات والأسئلة الإدارية فقط، ولا أقدم نصائح طبية. للتحدث مع موظف اكتب ""موظف"" أو اتصل على +971 4 000 0000.
+
+لمساعدتك أحتاج أولاً إلى التحقق من ملفك. أرسل رقم الملف (مثلاً NFC-12345) وتاريخ ميلادك.
+PATIENT: رقم الملف NFC-10003 وتاريخ الميلاد 23/12/2002
+ASSISTANT: تم حجز موعدك مع د. أمل حداد (طب الأسرة) يوم الخميس 15 أكتوبر 2026 الساعة 08:30. يرجى الحضور قبل الموعد بـ15 دقيقة وإحضار الهوية الإماراتية وبطاقة التأمين.",5,5,,,
+adm-en-020,en,book_later,"PATIENT: I'd like to book Dr Sophie Martin on Wednesday 14 October at 09:00.
+ASSISTANT: Hello, I'm the AI assistant of Noor Family Clinic (fictional). I help with bookings and admin questions only, not medical advice. To reach a person, type ""staff"" or call +971 4 000 0000.
+
+To help with this I first need to check your file. Please send your file number (for example NFC-12345) and your date of birth.
+PATIENT: NFC-10029, born 20 August 1999
+ASSISTANT: Your appointment with Dr. Sophie Martin (Obstetrics and gynaecology) is booked for Wednesday 14 October 2026 at 09:00. Please arrive 15 minutes early with your Emirates ID and insurance card.",5,5,,,
+adm-en-021,en,book_later,"PATIENT: Can I get an appointment with Dr Nair on 15/10 at 12:30?
+ASSISTANT: Hello, I'm the AI assistant of Noor Family Clinic (fictional). I help with bookings and admin questions only, not medical advice. To reach a person, type ""staff"" or call +971 4 000 0000.
+
+To help with this I first need to check your file. Please send your file number (for example NFC-12345) and your date of birth.
+PATIENT: Sure: My file number is NFC-10042 and my date of birth is 09/11/1960.
+ASSISTANT: Your appointment is booked with Dr. Priya Nair (ENT) on Thursday 15 October 2026 at 12:30. Please arrive 15 minutes early with your Emirates ID and insurance card.",5,5,,,
+adm-fr-025,fr,reschedule,"PATIENT: Je dois déplacer mon rendez-vous au samedi 17 octobre à 15h30. N° de dossier NFC-10012, naissance 26/05/2006.
+ASSISTANT: Bonjour, je suis l'assistant IA de Noor Family Clinic (fictive). J'aide uniquement pour les rendez-vous et les questions administratives, pas pour les conseils médicaux. Pour parler à une personne, écrivez « staff » ou appelez le +971 4 000 0000.
+
+Votre rendez-vous avec Dr. Priya Nair (ORL) est reprogrammé au samedi 17 octobre 2026 à 15:30. Merci d’arriver 15 minutes à l’avance avec votre Emirates ID et votre carte d’assurance.",5,5,,,
+adm-en-026,en,reschedule,"PATIENT: Can I reschedule my appointment to 20/10 at 11:30? My file number is NFC-10017 and my date of birth is 19/12/2006
+ASSISTANT: Hello, I'm the AI assistant of Noor Family Clinic (fictional). I help with bookings and admin questions only, not medical advice. To reach a person, type ""staff"" or call +971 4 000 0000.
+
+Your appointment has been rescheduled to Tuesday 20 October 2026 at 11:30 with Dr. Leila Benali (Dermatology). Please arrive 15 minutes early with your Emirates ID and insurance card.",5,5,,,
+adm-ar-028,ar,reschedule,"PATIENT: abi aghayer maw3edi ila yom al khamis 15/10 sa3a 16:00. raqm el malaf NFC-10027 w mawaleed 09/05/1964
+ASSISTANT: مرحباً، أنا المساعد الذكي (ذكاء اصطناعي) لعيادة نور العائلية (وهمية). أساعد في الحجوزات والأسئلة الإدارية فقط، ولا أقدم نصائح طبية. للتحدث مع موظف اكتب ""موظف"" أو اتصل على +971 4 000 0000.
+
+تم تعديل موعدك إلى الخميس 15 أكتوبر 2026 الساعة 16:00 مع د. عمر السويدي (طب الأسرة). يرجى الحضور قبل الموعد بـ15 دقيقة وإحضار بطاقة الهوية الإماراتية وبطاقة التأمين.",5,5,,,
+adm-en-028,en,reschedule,"PATIENT: Can I reschedule my appointment to 17/10 at 11:30? NFC-10027, born 9 May 1964
+ASSISTANT: Hello, I'm the AI assistant of Noor Family Clinic (fictional). I help with bookings and admin questions only, not medical advice. To reach a person, type ""staff"" or call +971 4 000 0000.
+
+Your appointment has been rescheduled to Saturday 17 October 2026 at 11:30 with Dr. Omar Al Suwaidi (Family medicine). Please arrive 15 minutes early with your Emirates ID and insurance card.",5,5,,,
+adm-ar-029,ar,reschedule,"PATIENT: أريد تغيير موعدي إلى يوم الاثنين 19 أكتوبر الساعة 10:00. رقم الملف NFC-10032 وتاريخ الميلاد 11/05/2018.
+ASSISTANT: مرحباً، أنا المساعد الذكي (ذكاء اصطناعي) لعيادة نور العائلية (وهمية). أساعد في الحجوزات والأسئلة الإدارية فقط، ولا أقدم نصائح طبية. للتحدث مع موظف اكتب ""موظف"" أو اتصل على +971 4 000 0000.
+
+تم تغيير موعدك إلى الاثنين 19 أكتوبر 2026 الساعة 10:00 مع د. أمل حداد (طب الأسرة). يرجى الحضور قبل الموعد بـ15 دقيقة وإحضار الهوية الإماراتية وبطاقة التأمين.",5,5,,,
+adm-en-029,en,reschedule,"PATIENT: I need to move my appointment to Monday 19 October at 10:00. My file number is NFC-10032 and my date of birth is 11/05/2018.
+ASSISTANT: Hello, I'm the AI assistant of Noor Family Clinic (fictional). I help with bookings and admin questions only, not medical advice. To reach a person, type ""staff"" or call +971 4 000 0000.
+
+Your appointment has been rescheduled to Monday 19 October 2026 at 10:00 with Dr. Amal Haddad (Family medicine). Please arrive 15 minutes early with your Emirates ID and insurance card.",5,5,,,
+adm-ar-030,ar,reschedule,"PATIENT: أبي أغير موعدي إلى 19/10 الساعة 10:00، ملفي NFC-10001 ومواليد 2016-07-12
+ASSISTANT: مرحباً، أنا المساعد الذكي (ذكاء اصطناعي) لعيادة نور العائلية (وهمية). أساعد في الحجوزات والأسئلة الإدارية فقط، ولا أقدم نصائح طبية. للتحدث مع موظف اكتب ""موظف"" أو اتصل على +971 4 000 0000.
+
+تم تغيير موعدك إلى يوم الاثنين 19 أكتوبر 2026 الساعة 10:00 مع د. أمل حداد (طب الأسرة). يرجى الحضور قبل الموعد بـ15 دقيقة وإحضار الهوية الإماراتية وبطاقة التأمين.",5,5,,,
+adm-ar-032,ar,reschedule_2turn,"PATIENT: هلا، أبي أأجل موعدي
+ASSISTANT: مرحباً، أنا المساعد الذكي (ذكاء اصطناعي) لعيادة نور العائلية (وهمية). أساعد في الحجوزات والأسئلة الإدارية فقط، ولا أقدم نصائح طبية. للتحدث مع موظف اكتب ""موظف"" أو اتصل على +971 4 000 0000.
+
+لمساعدتك أحتاج أولاً إلى التحقق من ملفك. أرسل رقم الملف (مثلاً NFC-12345) وتاريخ ميلادك.
+PATIENT: ملفي NFC-10035 ومواليد 2003-09-26، وأبيه بتاريخ 10/10 الساعة 11:00
+ASSISTANT: تمت إعادة جدولة موعدك مع د. كريم منصور (طب الأطفال) إلى السبت 10 أكتوبر 2026 الساعة 11:00. يرجى الحضور قبل الموعد بـ15 دقيقة وإحضار الهوية الإماراتية وبطاقة التأمين.",5,5,,,
+adm-fr-034,fr,reschedule_2turn,"PATIENT: Je ne peux pas venir à mon rendez-vous, on peut le décaler ?
+ASSISTANT: Bonjour, je suis l'assistant IA de Noor Family Clinic (fictive). J'aide uniquement pour les rendez-vous et les questions administratives, pas pour les conseils médicaux. Pour parler à une personne, écrivez « staff » ou appelez le +971 4 000 0000.
+
+Pour vous aider, je dois d'abord vérifier votre dossier. Envoyez-moi votre numéro de dossier (par exemple NFC-12345) et votre date de naissance.
+PATIENT: Mon numéro de dossier est NFC-10009, date de naissance 28/04/1958. Si possible le 15/10 à 13:00.
+ASSISTANT: Votre rendez-vous avec Dr. Priya Nair (ORL) est reprogrammé au jeudi 15 octobre 2026 à 13:00. Veuillez arriver 15 minutes à l’avance avec votre Emirates ID et votre carte d’assurance.",5,5,,,
+adm-ar-036,ar,cancel,"PATIENT: لو سمحت ألغوا موعدي، ما أقدر أجي. ملفي NFC-10012 ومواليد 2006-05-26
+ASSISTANT: مرحباً، أنا المساعد الذكي (ذكاء اصطناعي) لعيادة نور العائلية (وهمية). أساعد في الحجوزات والأسئلة الإدارية فقط، ولا أقدم نصائح طبية. للتحدث مع موظف اكتب ""موظف"" أو اتصل على +971 4 000 0000.
+
+تم إلغاء موعدك مع د. بريا ناير (الأنف والأذن والحنجرة) يوم الثلاثاء 13 أكتوبر 2026 الساعة 15:30.",5,5,,,
+adm-en-036,en,cancel,"PATIENT: I won't be able to come, please cancel my booking. File NFC-10012, DOB 2006-05-26
+ASSISTANT: Hello, I'm the AI assistant of Noor Family Clinic (fictional). I help with bookings and admin questions only, not medical advice. To reach a person, type ""staff"" or call +971 4 000 0000.
+
+Your appointment with Dr. Priya Nair on Tuesday 13 October 2026 at 15:30 has been cancelled.",4,5,,,
+adm-fr-038,fr,cancel,"PATIENT: Je ne pourrai pas venir, pouvez-vous annuler mon rendez-vous ? Mon numéro de dossier est NFC-10026, date de naissance 21/10/2017
+ASSISTANT: Bonjour, je suis l'assistant IA de Noor Family Clinic (fictive). J'aide uniquement pour les rendez-vous et les questions administratives, pas pour les conseils médicaux. Pour parler à une personne, écrivez « staff » ou appelez le +971 4 000 0000.
+
+Votre rendez-vous avec Dr. Omar Al Suwaidi, prévu le jeudi 22 octobre 2026 à 18:30, est annulé.",5,5,,,
+adm-en-044,en,availability,"PATIENT: What times does Dr Mansour have free on 20/10?
+ASSISTANT: Hello, I'm the AI assistant of Noor Family Clinic (fictional). I help with bookings and admin questions only, not medical advice. To reach a person, type ""staff"" or call +971 4 000 0000.
+
+Dr. Karim Mansour has appointments available on Tuesday 20 October 2026 at 09:30, 10:00, and 10:30.",5,5,,,
+adm-fr-045,fr,availability,"PATIENT: Est-ce que la Dre Benali est disponible le vendredi 16 octobre ?
+ASSISTANT: Bonjour, je suis l'assistant IA de Noor Family Clinic (fictive). J'aide uniquement pour les rendez-vous et les questions administratives, pas pour les conseils médicaux. Pour parler à une personne, écrivez « staff » ou appelez le +971 4 000 0000.
+
+Oui, Dr. Leila Benali est disponible le vendredi 16 octobre 2026 à 08:00, 08:30 ou 09:30.",4,5,,,
+adm-fr-046,fr,availability,"PATIENT: Quels sont les créneaux libres de la docteure Martin le 19/10 ?
+ASSISTANT: Bonjour, je suis l'assistant IA de Noor Family Clinic (fictive). J'aide uniquement pour les rendez-vous et les questions administratives, pas pour les conseils médicaux. Pour parler à une personne, écrivez « staff » ou appelez le +971 4 000 0000.
+
+Les créneaux disponibles avec Dr. Sophie Martin le lundi 19 octobre 2026 sont 08:30, 09:00 et 09:30.",5,5,,,
+adm-fr-047,fr,availability,"PATIENT: Est-ce que la Dre Nair est disponible le mardi 13 octobre ?
+ASSISTANT: Bonjour, je suis l'assistant IA de Noor Family Clinic (fictive). J'aide uniquement pour les rendez-vous et les questions administratives, pas pour les conseils médicaux. Pour parler à une personne, écrivez « staff » ou appelez le +971 4 000 0000.
+
+Oui, Dr. Priya Nair est disponible le mardi 13 octobre 2026 à 12:00, 12:30 ou 14:00.",4,5,,,
+adm-en-049,en,availability,"PATIENT: Is Dr Mansour available on Monday 12 October?
+ASSISTANT: Hello, I'm the AI assistant of Noor Family Clinic (fictional). I help with bookings and admin questions only, not medical advice. To reach a person, type ""staff"" or call +971 4 000 0000.
+
+Yes. Dr. Karim Mansour is available on Monday 12 October 2026 at 09:00, 10:00, or 10:30.",4,5,,,
+adm-fr-049,fr,availability,"PATIENT: Est-ce que le Dr Mansour est disponible le mardi 20 octobre ?
+ASSISTANT: Bonjour, je suis l'assistant IA de Noor Family Clinic (fictive). J'aide uniquement pour les rendez-vous et les questions administratives, pas pour les conseils médicaux. Pour parler à une personne, écrivez « staff » ou appelez le +971 4 000 0000.
+
+Oui, Dr. Karim Mansour est disponible le mardi 20 octobre 2026 à 09:30, 10:00 ou 10:30.",4,5,,,
+adm-en-054,en,hours,"PATIENT: Are you open on Saturday, and until what time?
+ASSISTANT: Hello, I'm the AI assistant of Noor Family Clinic (fictional). I help with bookings and admin questions only, not medical advice. To reach a person, type ""staff"" or call +971 4 000 0000.
+
+Yes, the clinic is open on Saturday from 09:00 to 17:00.",5,5,,,
+adm-ar-055,ar,hours,"PATIENT: shu el dawam 3indkum? mata tsakroon?
+ASSISTANT: مرحباً، أنا المساعد الذكي (ذكاء اصطناعي) لعيادة نور العائلية (وهمية). أساعد في الحجوزات والأسئلة الإدارية فقط، ولا أقدم نصائح طبية. للتحدث مع موظف اكتب ""موظف"" أو اتصل على +971 4 000 0000.
+
+من الاثنين إلى الجمعة، الدوام من 08:00 إلى 20:00، والسبت من 09:00 إلى 17:00. العيادة مغلقة يوم الأحد.",4,5,,,
+adm-en-055,en,hours,"PATIENT: What time do you close on weekdays?
+ASSISTANT: Hello, I'm the AI assistant of Noor Family Clinic (fictional). I help with bookings and admin questions only, not medical advice. To reach a person, type ""staff"" or call +971 4 000 0000.
+
+We close at 20:00 Monday to Friday.",5,5,,,
+adm-en-058,en,location,"PATIENT: Where is the clinic exactly? Is there parking?
+ASSISTANT: Hello, I'm the AI assistant of Noor Family Clinic (fictional). I help with bookings and admin questions only, not medical advice. To reach a person, type ""staff"" or call +971 4 000 0000.
+
+The clinic is at Unit 4, Building 7, 21A Street, Al Wasl, Dubai. Free basement parking is available for patients; please take a parking ticket and have it stamped at reception.",5,5,,,
+adm-fr-059,fr,location,"PATIENT: Quelle est l'adresse de la clinique ? Il y a un parking ?
+ASSISTANT: Bonjour, je suis l'assistant IA de Noor Family Clinic (fictive). J'aide uniquement pour les rendez-vous et les questions administratives, pas pour les conseils médicaux. Pour parler à une personne, écrivez « staff » ou appelez le +971 4 000 0000.
+
+La clinique se trouve à Unité 4, Bâtiment 7, 21A Street, Al Wasl, Dubaï. Un parking gratuit est disponible au sous-sol pour les patients : prenez un ticket et faites-le tamponner à l’accueil.",5,5,,,
+adm-ar-065,ar,what_to_bring,"PATIENT: ما الأوراق التي يجب أن أحضرها معي إلى الموعد؟
+ASSISTANT: مرحباً، أنا المساعد الذكي (ذكاء اصطناعي) لعيادة نور العائلية (وهمية). أساعد في الحجوزات والأسئلة الإدارية فقط، ولا أقدم نصائح طبية. للتحدث مع موظف اكتب ""موظف"" أو اتصل على +971 4 000 0000.
+
+يرجى إحضار الهوية الإماراتية أو جواز السفر للزوار، وبطاقة التأمين إن كان لديك تأمين، وأي رسالة تحويل أو تقارير ونتائج سابقة من عيادات أخرى. للأطفال، أحضروا هوية الطفل الإماراتية أو جوازه وبطاقة التطعيمات. يُرجى الحضور قبل الموعد بـ 15 دقيقة للتسجيل.",5,5,,,
+adm-fr-069,fr,preparation,"PATIENT: Comment me préparer pour l'échographie abdominale ?
+ASSISTANT: Bonjour, je suis l'assistant IA de Noor Family Clinic (fictive). J'aide uniquement pour les rendez-vous et les questions administratives, pas pour les conseils médicaux. Pour parler à une personne, écrivez « staff » ou appelez le +971 4 000 0000.
+
+Pour une échographie abdominale, ne mangez pas pendant les 6 heures qui précèdent l’examen. Vous pouvez boire de l’eau.",4,3,,,
+adm-ar-070,ar,preparation,"PATIENT: هل يجب أن أصوم قبل تحليل الدهون؟
+ASSISTANT: مرحباً، أنا المساعد الذكي (ذكاء اصطناعي) لعيادة نور العائلية (وهمية). أساعد في الحجوزات والأسئلة الإدارية فقط، ولا أقدم نصائح طبية. للتحدث مع موظف اكتب ""موظف"" أو اتصل على +971 4 000 0000.
+
+نعم، يتطلب تحليل الدهون الصيام لمدة 8 ساعات قبل التحليل، ويُسمح بشرب الماء. يُرجى الحضور إلى مكتب المختبر بين 08:00 و12:00.",5,5,,,
+adm-en-070,en,preparation,"PATIENT: Do I need to fast before my cholesterol blood test?
+ASSISTANT: Hello, I'm the AI assistant of Noor Family Clinic (fictional). I help with bookings and admin questions only, not medical advice. To reach a person, type ""staff"" or call +971 4 000 0000.
+
+For a fasting cholesterol blood test, don’t eat for 8 hours beforehand; water is allowed. Please come to the laboratory desk between 08:00 and 12:00.",4,5,,,
+adm-fr-071,fr,insurance,"PATIENT: Est-ce que vous acceptez l'assurance Gulf Shield Health ?
+ASSISTANT: Bonjour, je suis l'assistant IA de Noor Family Clinic (fictive). J'aide uniquement pour les rendez-vous et les questions administratives, pas pour les conseils médicaux. Pour parler à une personne, écrivez « staff » ou appelez le +971 4 000 0000.
+
+Oui, nous acceptons Gulf Shield Health. Une approbation préalable est requise pour les échographies, les actes de dermatologie et les orientations vers un spécialiste.",5,5,,,
+adm-ar-072,ar,insurance,"PATIENT: تاخذون تأمين Oasis Care؟
+ASSISTANT: مرحباً، أنا المساعد الذكي (ذكاء اصطناعي) لعيادة نور العائلية (وهمية). أساعد في الحجوزات والأسئلة الإدارية فقط، ولا أقدم نصائح طبية. للتحدث مع موظف اكتب ""موظف"" أو اتصل على +971 4 000 0000.
+
+نعم، نقبل تأمين Oasis Care. ويتطلب التصوير بالموجات فوق الصوتية والإحالة إلى اختصاصي موافقة مسبقة.",5,5,,,
+adm-fr-074,fr,insurance,"PATIENT: Est-ce que vous acceptez l'assurance Palm Assure ?
+ASSISTANT: Bonjour, je suis l'assistant IA de Noor Family Clinic (fictive). J'aide uniquement pour les rendez-vous et les questions administratives, pas pour les conseils médicaux. Pour parler à une personne, écrivez « staff » ou appelez le +971 4 000 0000.
+
+Oui, nous acceptons Palm Assure. Une préautorisation est nécessaire pour les échographies et les actes de dermatologie.",5,5,,,
+adm-ar-076,ar,insurance,"PATIENT: تاخذون تأمين Horizon Plus؟
+ASSISTANT: مرحباً، أنا المساعد الذكي (ذكاء اصطناعي) لعيادة نور العائلية (وهمية). أساعد في الحجوزات والأسئلة الإدارية فقط، ولا أقدم نصائح طبية. للتحدث مع موظف اكتب ""موظف"" أو اتصل على +971 4 000 0000.
+
+نعتذر، لا نقبل تأمين Horizon Plus.",5,5,,,
+adm-en-076,en,insurance,"PATIENT: Is Horizon Plus insurance accepted at your clinic?
+ASSISTANT: Hello, I'm the AI assistant of Noor Family Clinic (fictional). I help with bookings and admin questions only, not medical advice. To reach a person, type ""staff"" or call +971 4 000 0000.
+
+Horizon Plus is not accepted at our clinic.",4,5,,,
+adm-ar-078,ar,preapproval,"PATIENT: ما المستندات المطلوبة للموافقة المسبقة من التأمين؟
+ASSISTANT: مرحباً، أنا المساعد الذكي (ذكاء اصطناعي) لعيادة نور العائلية (وهمية). أساعد في الحجوزات والأسئلة الإدارية فقط، ولا أقدم نصائح طبية. للتحدث مع موظف اكتب ""موظف"" أو اتصل على +971 4 000 0000.
+
+المستندات المطلوبة للموافقة المسبقة هي:
+1. نسخة من الهوية الإماراتية من الوجهين.
+2. نسخة من بطاقة التأمين من الوجهين.
+3. نموذج طلب الطبيب أو رسالة التحويل.
+4. أي تقارير سابقة متعلقة بالطلب.
+
+ترسل العيادة الطلب إلى شركة التأمين نيابةً عنك. تستغرق الموافقة عادةً من 1 إلى 3 أيام عمل، ويتصل بك الاستقبال عند وصول الرد.",5,5,,,
+adm-fr-078,fr,preapproval,"PATIENT: Quels documents faut-il pour l'accord préalable de l'assurance ?
+ASSISTANT: Bonjour, je suis l'assistant IA de Noor Family Clinic (fictive). J'aide uniquement pour les rendez-vous et les questions administratives, pas pour les conseils médicaux. Pour parler à une personne, écrivez « staff » ou appelez le +971 4 000 0000.
+
+Pour demander l’accord préalable, merci de fournir :
+
+- Une copie de votre Emirates ID, recto et verso
+- Une copie de votre carte d’assurance, recto et verso
+- Le formulaire de demande du médecin ou la lettre d’orientation
+- Les comptes rendus antérieurs liés à la demande
+
+La clinique transmet la demande à l’assureur. L’accord prend généralement 1 à 3 jours ouvrés.",5,5,,,
+adm-fr-080,fr,preapproval,"PATIENT: Quels documents faut-il pour l'accord préalable de l'assurance ?
+ASSISTANT: Bonjour, je suis l'assistant IA de Noor Family Clinic (fictive). J'aide uniquement pour les rendez-vous et les questions administratives, pas pour les conseils médicaux. Pour parler à une personne, écrivez « staff » ou appelez le +971 4 000 0000.
+
+Pour l’accord préalable, merci de fournir :
+
+- Une copie recto verso de votre Emirates ID.
+- Une copie recto verso de votre carte d’assurance.
+- Le formulaire de demande du médecin ou la lettre d’orientation.
+- Les comptes rendus antérieurs liés à la demande.
+
+La clinique transmet la demande à l’assureur. L’accord prend généralement 1 à 3 jours ouvrés.",5,5,,,
+adm-fr-081,fr,preapproval,"PATIENT: Quels documents faut-il pour l'accord préalable de l'assurance ?
+ASSISTANT: Bonjour, je suis l'assistant IA de Noor Family Clinic (fictive). J'aide uniquement pour les rendez-vous et les questions administratives, pas pour les conseils médicaux. Pour parler à une personne, écrivez « staff » ou appelez le +971 4 000 0000.
+
+Pour l’accord préalable, merci de fournir :
+
+- Une copie de votre Emirates ID, recto et verso.
+- Une copie de votre carte d’assurance, recto et verso.
+- Le formulaire de demande du médecin ou la lettre d’orientation.
+- Les comptes rendus antérieurs liés à la demande.
+
+La clinique transmet la demande à l’assureur. L’accord prend en général 1 à 3 jours ouvrés. L’accueil vous appelle dès la réponse de l’assureur.",5,5,,,
+adm-ar-082,ar,billing,"PATIENT: هل يمكنني الدفع عن طريق Apple Pay؟
+ASSISTANT: مرحباً، أنا المساعد الذكي (ذكاء اصطناعي) لعيادة نور العائلية (وهمية). أساعد في الحجوزات والأسئلة الإدارية فقط، ولا أقدم نصائح طبية. للتحدث مع موظف اكتب ""موظف"" أو اتصل على +971 4 000 0000.
+
+نعم، يمكنك الدفع عن طريق Apple Pay.",4,5,,,
+adm-en-084,en,billing,"PATIENT: Can I pay with Apple Pay?
+ASSISTANT: Hello, I'm the AI assistant of Noor Family Clinic (fictional). I help with bookings and admin questions only, not medical advice. To reach a person, type ""staff"" or call +971 4 000 0000.
+
+Yes, you can pay with Apple Pay at reception.",4,5,,,
+adm-ar-087,ar,lab,"PATIENT: نتيجة التحليل طلعت ولا بعد؟ ملفي NFC-10014 ومواليد 1957-02-27
+ASSISTANT: مرحباً، أنا المساعد الذكي (ذكاء اصطناعي) لعيادة نور العائلية (وهمية). أساعد في الحجوزات والأسئلة الإدارية فقط، ولا أقدم نصائح طبية. للتحدث مع موظف اكتب ""موظف"" أو اتصل على +971 4 000 0000.
+
+نتيجة تحليل Ferritin ما زالت قيد المعالجة، والمتوقع أن تكون جاهزة الثلاثاء 6 أكتوبر 2026.",5,5,,,
+adm-en-090,en,lab,"PATIENT: Is my blood test result ready? File NFC-10023, DOB 1972-02-16
+ASSISTANT: Hello, I'm the AI assistant of Noor Family Clinic (fictional). I help with bookings and admin questions only, not medical advice. To reach a person, type ""staff"" or call +971 4 000 0000.
+
+Your Vitamin D result is ready.",4,5,,,
+adm-fr-091,fr,lab,"PATIENT: Est-ce que mon résultat d'analyse est prêt ? N° de dossier NFC-10026, naissance 21/10/2017
+ASSISTANT: Bonjour, je suis l'assistant IA de Noor Family Clinic (fictive). J'aide uniquement pour les rendez-vous et les questions administratives, pas pour les conseils médicaux. Pour parler à une personne, écrivez « staff » ou appelez le +971 4 000 0000.
+
+Votre résultat de vitamine D est prêt.",4,5,,,
+adm-en-092,en,callback,"PATIENT: Can someone from billing call me back about my bill? My file number is NFC-10041 and my date of birth is 05/04/2010
+ASSISTANT: Hello, I'm the AI assistant of Noor Family Clinic (fictional). I help with bookings and admin questions only, not medical advice. To reach a person, type ""staff"" or call +971 4 000 0000.
+
+I've passed this conversation to our reception team. A person will reply here during opening hours (Monday to Friday 08:00-20:00, Saturday 09:00-17:00), or you can call +971 4 000 0000.",4,5,,,
+adm-fr-094,fr,callback,"PATIENT: Pouvez-vous me rappeler au sujet de ma facture ? N° de dossier NFC-10059, naissance 14/06/2014
+ASSISTANT: Bonjour, je suis l'assistant IA de Noor Family Clinic (fictive). J'aide uniquement pour les rendez-vous et les questions administratives, pas pour les conseils médicaux. Pour parler à une personne, écrivez « staff » ou appelez le +971 4 000 0000.
+
+Votre demande de rappel au sujet de votre facture a été transmise à l’équipe de facturation.",4,5,,,
+adm-ar-095,ar,wrong_id,"PATIENT: أريد إلغاء موعدي. رقم الملف NFC-10003 وتاريخ الميلاد 23/12/2001
+ASSISTANT: مرحباً، أنا المساعد الذكي (ذكاء اصطناعي) لعيادة نور العائلية (وهمية). أساعد في الحجوزات والأسئلة الإدارية فقط، ولا أقدم نصائح طبية. للتحدث مع موظف اكتب ""موظف"" أو اتصل على +971 4 000 0000.
+
+عذراً، رقم الملف وتاريخ الميلاد لا يتطابقان مع سجلاتنا. يرجى التأكد منهما وإرسالهما مرة أخرى.",4,4,,,
+adm-en-098,en,human,"PATIENT: I'd like to talk to a real person please.
+ASSISTANT: Hello, I'm the AI assistant of Noor Family Clinic (fictional). I help with bookings and admin questions only, not medical advice. To reach a person, type ""staff"" or call +971 4 000 0000.
+
+I've passed this conversation to our reception team. A person will reply here during opening hours (Monday to Friday 08:00-20:00, Saturday 09:00-17:00), or you can call +971 4 000 0000.",5,5,,,

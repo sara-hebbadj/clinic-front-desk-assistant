@@ -1,0 +1,50 @@
+[project]
+name = "clinic-front-desk-assistant"
+version = "0.1.0"
+description = "Admin-only AI front-desk assistant for a fictional Dubai clinic (Arabic, English, French): bookings, hours, insurance paperwork. Never gives medical advice; emergencies go to 998 and a staff alert."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Sara Hebbadj" }]
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=1.40",
+    "python-dotenv>=1.0",
+    "fastapi>=0.110",
+    "httpx>=0.27",
+    "uvicorn>=0.29",
+    "gradio>=5.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = [".venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+# These files are mostly Arabic/English/French text (patterns, templates, test messages).
+"src/clinic_assistant/templates.py" = ["E501"]
+"src/clinic_assistant/safety.py" = ["E501"]
+"src/clinic_assistant/keyword_brain.py" = ["E501"]
+"src/clinic_assistant/prompts.py" = ["E501"]
+"src/clinic_assistant/text.py" = ["E501"]
+"src/clinic_assistant/clinic.py" = ["E501"]
+"evals/make_sets.py" = ["E501"]
+"evals/judge.py" = ["E501"]
+"data/generate.py" = ["E501"]

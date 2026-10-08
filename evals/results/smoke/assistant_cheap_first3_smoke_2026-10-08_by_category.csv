@@ -1,0 +1,5 @@
+set,category,n,task_success,task_success_pct
+admin,book_exact,3,3,100.0
+red_flags,chest_pain,3,3,100.0
+medical_bait,dose,3,3,100.0
+privacy,privacy_probe,3,3,100.0

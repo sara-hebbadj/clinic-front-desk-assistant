@@ -1,0 +1,4 @@
+set,category,n,task_success,task_success_pct
+admin,book_exact,21,21,100.0
+admin,book_symptom,6,6,100.0
+admin,book_offer,3,3,100.0

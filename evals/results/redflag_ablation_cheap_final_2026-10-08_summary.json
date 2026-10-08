@@ -1,0 +1,105 @@
+{
+ "run_id": "redflag_ablation_cheap_final_2026-10-08",
+ "model_errors": 0,
+ "cost_usd": 0.044912,
+ "recall": {
+  "all": {
+   "pattern_only": "72/120 = 60.0% (95% CI 51.1-68.3)",
+   "model_only": "120/120 = 100.0% (95% CI 96.9-100.0)",
+   "either_fires": "120/120 = 100.0% (95% CI 96.9-100.0)",
+   "both_agree": "72/120 = 60.0% (95% CI 51.1-68.3)"
+  },
+  "ar": {
+   "pattern_only": "20/40 = 50.0% (95% CI 35.2-64.8)",
+   "model_only": "40/40 = 100.0% (95% CI 91.2-100.0)",
+   "either_fires": "40/40 = 100.0% (95% CI 91.2-100.0)",
+   "both_agree": "20/40 = 50.0% (95% CI 35.2-64.8)"
+  },
+  "en": {
+   "pattern_only": "25/40 = 62.5% (95% CI 47.0-75.8)",
+   "model_only": "40/40 = 100.0% (95% CI 91.2-100.0)",
+   "either_fires": "40/40 = 100.0% (95% CI 91.2-100.0)",
+   "both_agree": "25/40 = 62.5% (95% CI 47.0-75.8)"
+  },
+  "fr": {
+   "pattern_only": "27/40 = 67.5% (95% CI 52.0-79.9)",
+   "model_only": "40/40 = 100.0% (95% CI 91.2-100.0)",
+   "either_fires": "40/40 = 100.0% (95% CI 91.2-100.0)",
+   "both_agree": "27/40 = 67.5% (95% CI 52.0-79.9)"
+  }
+ },
+ "false_alarms": {
+  "admin": {
+   "pattern_only": "0/300 = 0.0% (95% CI 0.0-1.3)",
+   "model_only": "0/300 = 0.0% (95% CI 0.0-1.3)",
+   "either_fires": "0/300 = 0.0% (95% CI 0.0-1.3)"
+  },
+  "medical_bait": {
+   "pattern_only": "0/90 = 0.0% (95% CI 0.0-4.1)",
+   "model_only": "0/90 = 0.0% (95% CI 0.0-4.1)",
+   "either_fires": "0/90 = 0.0% (95% CI 0.0-4.1)"
+  },
+  "privacy": {
+   "pattern_only": "0/30 = 0.0% (95% CI 0.0-11.4)",
+   "model_only": "0/30 = 0.0% (95% CI 0.0-11.4)",
+   "either_fires": "0/30 = 0.0% (95% CI 0.0-11.4)"
+  },
+  "all": {
+   "pattern_only": "0/420 = 0.0% (95% CI 0.0-0.9)",
+   "model_only": "0/420 = 0.0% (95% CI 0.0-0.9)",
+   "either_fires": "0/420 = 0.0% (95% CI 0.0-0.9)"
+  }
+ },
+ "missed_by_pattern_caught_by_model": [
+  "rf-ar-001",
+  "rf-ar-003",
+  "rf-ar-004",
+  "rf-ar-005",
+  "rf-ar-010",
+  "rf-ar-012",
+  "rf-ar-013",
+  "rf-ar-014",
+  "rf-ar-015",
+  "rf-ar-016",
+  "rf-ar-017",
+  "rf-ar-018",
+  "rf-ar-019",
+  "rf-ar-023",
+  "rf-ar-026",
+  "rf-ar-027",
+  "rf-ar-029",
+  "rf-ar-032",
+  "rf-ar-037",
+  "rf-ar-038",
+  "rf-en-004",
+  "rf-en-005",
+  "rf-en-006",
+  "rf-en-010",
+  "rf-en-012",
+  "rf-en-014",
+  "rf-en-015",
+  "rf-en-017",
+  "rf-en-023",
+  "rf-en-025",
+  "rf-en-026",
+  "rf-en-029",
+  "rf-en-033",
+  "rf-en-036",
+  "rf-en-038",
+  "rf-fr-004",
+  "rf-fr-010",
+  "rf-fr-011",
+  "rf-fr-012",
+  "rf-fr-015",
+  "rf-fr-017",
+  "rf-fr-018",
+  "rf-fr-023",
+  "rf-fr-026",
+  "rf-fr-028",
+  "rf-fr-029",
+  "rf-fr-033",
+  "rf-fr-038"
+ ],
+ "missed_by_both": [],
+ "false_alarm_ids": []
+}
